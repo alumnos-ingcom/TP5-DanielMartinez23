@@ -1,9 +1,9 @@
 ################
-# Martín René - @martinvilu
+# Daniel Martinez - DanielMartinez23
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
-def Fibonacci(n):
+def fibonacci(n):
     num1 = 0
     num2 = 1
     sucecion =[]

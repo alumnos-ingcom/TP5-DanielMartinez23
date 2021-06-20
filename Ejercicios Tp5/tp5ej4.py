@@ -3,7 +3,7 @@
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
-def num_n(mensaje):
+def numero_n(mensaje):
     ingreso = input(mensaje + "#")
     try:
         entero = int(ingreso)
@@ -11,7 +11,7 @@ def num_n(mensaje):
         print("el numero ingresado no es un numero entero")
     return entero
     
-def num_perfecto(num):
+def numumero_perfecto(num):
     condicion = False
     for i in range(num):
         if 2**(i-1)*((2**i) - 1) == num:

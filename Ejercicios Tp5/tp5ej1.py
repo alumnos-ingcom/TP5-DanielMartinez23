@@ -1,5 +1,5 @@
 ################
-# Martín René - @martinvilu
+# Daniel Martinez - DanielMartinez23
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 

@@ -3,18 +3,18 @@
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
-def cad(mensaje):
+def cadena(mensaje):
     ingreso = input(mensaje + "#")
     return ingreso
     
-def cambio_min_may(cadena):
+def cambio_minuscula_mayuscula(cadena):
     cambio = cadena.swapcase()
     return cambio
 
 def prueba():
-    cadena = cad("ingrese un texto")
-    cambio = cambio_min_may(cadena)
-    print(cadena)
+    cad = cadena("ingrese un texto")
+    cambio = cambio_minuscula_mayuscula(cadena)
+    print(cad)
     print(cambio)
            
 if __name__ == "__main__":

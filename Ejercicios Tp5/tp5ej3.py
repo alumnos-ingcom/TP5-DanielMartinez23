@@ -3,7 +3,7 @@
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
-def Fibonacci(n):
+def tribonacci(n):
     num1 = 1
     num2 = 1
     num3 = 1
@@ -27,7 +27,7 @@ def num_n(mensaje):
     
     
 def prueba():
-    print("este es el ejercicio 2")
+    print("este es el ejercicio 3")
     numero = num_n("ingrese el numero n(tiene que ser mayor a 2)")
     total = Fibonacci(numero)
     print(f"el n-esimo termino de la secuencia Fibonacci es: {total}")
